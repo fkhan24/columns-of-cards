@@ -1,6 +1,6 @@
 html {
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
   line-height: 1.5;
   background-color: #f2f2f2;
 }
@@ -16,12 +16,18 @@ body {
 h2 {
   text-align: center;
   font-size: 1.175rem;
-  text-align: center;
+  font-weight: bold;
 }
 
 h3 {
   font-size: 1rem;
   margin-bottom: 0;
+}
+
+p {
+  font-size: 1rem;
+  margin-top: 0;
+  padding-bottom: 1rem;
 }
 
 .card {
@@ -44,4 +50,85 @@ ul {
   list-style-type: none;
   padding-right: .75rem;
   padding-left: .75rem;
+}
+
+li {
+  display: flex;
+  flex-direction: column;
+
+  border-color: #000;
+  border-style: solid;
+  border-top: 0;
+  border-bottom: 0;
+  border-right: 0;
+  border-width: .5px;
+
+  padding: .75rem;
+  justify-content: space-between;
+}
+
+.quest img {
+  display: block;
+  margin: 0 auto .5rem;
+}
+
+.knights img {
+  display: block;
+  margin: 0 auto .5rem;
+}
+
+.dragon img {
+  display: block;
+  margin: 0 auto .5rem;
+}
+
+.ship img {
+  display: block;
+  margin: 0 auto .5rem;
+}
+
+.quest {
+  background-color: #e2e2e2;
+}
+
+.knights {
+  background-color: #ccc;
+}
+
+.dragon {
+  background-color: #aaa;
+}
+
+.ship {
+  background-color: #999;
+}
+
+div {
+  margin: 10px;
+}
+
+a {
+  color: #fff;
+  font-weight: bold;
+}
+
+.btn {
+  background-color: #333;
+  border-radius: 10px;
+  color: #f2f2f2;
+  font-size: .875rem;
+
+  padding-top: .7em;
+  padding-bottom: .75em;
+  padding-right: .75em;
+  padding-left: .75em;
+}
+
+.btn:hover {
+  background-color: #000;
+}
+
+.btn-small {
+  text-align: left;
+  text-decoration: none;
 }
