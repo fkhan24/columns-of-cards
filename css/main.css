@@ -15,13 +15,18 @@ body {
 
 h2 {
   text-align: center;
-  font-size: 1.175rem;
-  font-weight: bold;
+  font-size: 1.75rem;
+  font-weight: bolder;
+  margin: 15px;
 }
 
 h3 {
   font-size: 1rem;
   margin-bottom: 0;
+}
+
+h2, h3 {
+  font-weight: bolder;
 }
 
 p {
@@ -32,12 +37,18 @@ p {
 
 .card {
   width: 25%;
+  margin-top: 10px;
+  padding-bottom: .2rem;
 }
 
 img {
   display: block;
   margin: 0;
   width: 100%;
+}
+
+li img {
+  width: 32%;
 }
 
 section {
@@ -47,6 +58,8 @@ section {
 
 ul {
   display: flex;
+  flex-direction: row;
+
   list-style-type: none;
   padding-right: .75rem;
   padding-left: .75rem;
@@ -64,7 +77,6 @@ li {
   border-width: .5px;
 
   padding: .75rem;
-  justify-content: space-between;
 }
 
 .quest img {
@@ -122,6 +134,8 @@ a {
   padding-bottom: .75em;
   padding-right: .75em;
   padding-left: .75em;
+
+  display: flex;
 }
 
 .btn:hover {
@@ -131,4 +145,12 @@ a {
 .btn-small {
   text-align: left;
   text-decoration: none;
+}
+
+cite {
+  font-size: .875rem;
+}
+
+li cite {
+  flex-grow: 1;
 }
